@@ -54,4 +54,6 @@ export default [
   route("api/logout", "routes/api.logout.ts"),
   route("api/video-tracking", "routes/api.video-tracking.ts"),
   route("api/set-dev-country", "routes/api.set-dev-country.ts"),
+  // PROTOTYPE — Knock spike (#47), never merge.
+  route("prototype/knock", "routes/prototype.knock.tsx"),
 ] satisfies RouteConfig;
